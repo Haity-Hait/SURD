@@ -11,7 +11,7 @@ function Home() {
 
             <div className='home_body'>
                 <img
-                    src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                    src="/surd.png"
                     alt="" />
                 <div className="home_inputContainer">
                     <Search />
