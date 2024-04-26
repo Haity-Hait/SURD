@@ -11,10 +11,10 @@ function Home() {
 
             <div className='home_body'>
                 <img
-                    src="/surd.png"
+                    src="/white surd.png"
                     alt="" />
                 <div className="home_inputContainer">
-                    <Search />
+                    <Search cors="style" />
                 </div>
             </div>
         </div>

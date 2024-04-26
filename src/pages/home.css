@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/dm3qp8ucl/image/upload/v1714143815/bg2_bnpewp.jpg");
 }
 
 .home_header{
@@ -9,6 +13,9 @@
     justify-content: space-between;
     padding: 20px 30px;
     align-items: center;
+}
+.style::placeholder{
+    color: #222;
 }
 .home_header a{
     margin-right: 20px;

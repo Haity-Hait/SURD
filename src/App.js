@@ -1,22 +1,20 @@
 import React from "react";
 // import "./App.css";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Home from "./pages/home";
 import SearchPage from "./pages/searchPage";
 
 export default function App() {
   return (
-    <div className="App">
     <Router>
       <Switch>
-      <Route path="/search">
-      <SearchPage />
-      </Route>
+        <Route path="/search">
+          <SearchPage />
+        </Route>
         <Route path="/">
-          <Home/>
+          <Home />
         </Route>
       </Switch>
     </Router>
-    </div>
   );
 }

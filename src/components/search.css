@@ -7,6 +7,7 @@
     border-radius: 999px;
     width: 75vw;
     margin: 0 auto;
+
     margin-top: 40px;
     max-width: 560px;
 }
@@ -15,7 +16,10 @@
     flex: 1;
     padding: 10px 20px;
     font-size: medium;
+    font-size: 18px;
     border: none;
+
+    background-color: transparent;
 }
 
 @media only screen and (max-width:650px){
@@ -33,7 +37,8 @@
     z-index: 3;
     /* box-shadow: ; */
     border-radius: 20px;
-    background: #fff;
+    background-color: transparent;
+
     border: 1px solid #dadce0;
     }
     .search_input > input {
@@ -61,7 +66,7 @@
 }
 
 .search_inputIcon{
-    color: grey;
+    color: black;
 }
 
 .search_buttons {
