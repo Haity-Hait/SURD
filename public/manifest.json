@@ -3,12 +3,12 @@
   "short_name": "SURD",
   "icons": [
     {
-      "src": "surd.png",
+      "src": "https://res.cloudinary.com/dm3qp8ucl/image/upload/v1714143814/white_surd_nitoar.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "surd.png",
+      "src": "https://res.cloudinary.com/dm3qp8ucl/image/upload/v1714143814/white_surd_nitoar.png",
       "sizes": "512x512",
       "type": "image/png"
     }
